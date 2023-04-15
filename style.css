@@ -1,0 +1,114 @@
+*{
+    font-family: 'Outfit', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: hsl(217, 54%, 11%);
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    background: hsl(216, 50%, 16%);
+    margin: 3rem auto;
+    border-radius: 10px;
+    height: 90vh;
+    width: 350px;
+}
+.image img{
+    height: 290px;
+   margin: 20px 0 0 30px;
+   border-radius: 10px;
+}
+.image:hover .view{
+    cursor: pointer;
+    display: block;
+  }
+
+  .image .eye{
+    height: 50px;
+    position: absolute;
+    top: 35%;
+   right: 42%;
+  }
+  .image .view{
+    position: absolute;
+    top: 11%;
+    right: 25%;
+    border-radius: 10px;
+    height: 290px;
+    width: 300px;
+    opacity: 0.6;
+    background-color: hsl(215, 48%, 71%);
+    display: none;
+  }
+.description{
+    margin: 20px 30px 0px 30px;
+
+}
+
+.description h1{
+    color: #fff;
+    font-size: 25px;
+}
+.sub-description{
+    margin: 10px 0 20px;
+    color: hsla(0, 0%, 100%, 0.445);
+}
+.data .sub{
+    display: flex;
+}
+
+.gray p{
+    color: hsla(0, 0%, 100%, 0.445);
+}
+
+.data p{
+    margin-left: 5px;
+}
+
+.data{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.color{
+    color: aqua;
+}
+
+hr{
+    margin-top: 25px;
+    border: 1px solid hsl(215, 32%, 27%);
+}
+
+.creater{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.creater img{
+    height: 45px;
+    border:  2px solid #fff;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+.creater p{
+   margin-left: 15px;
+   color: hsla(0, 0%, 100%, 0.445);
+}
+
+.creater p span{
+    color: #fff;
+}
+
+@media (max-width: 425px){
+    .card{
+        height: 90%;
+    }
+}
