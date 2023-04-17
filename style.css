@@ -39,13 +39,14 @@ main{
   .image .view{
     position: absolute;
     top: 11%;
-    right: 25%;
+    right: 38.8%;
     border-radius: 10px;
-    height: 290px;
-    width: 300px;
+    height: 288px;
+    width: 290px;
     opacity: 0.6;
     background-color: hsl(215, 48%, 71%);
     display: none;
+    opacity: 0.4;
   }
 .description{
     margin: 20px 30px 0px 30px;
@@ -111,4 +112,15 @@ hr{
     .card{
         height: 90%;
     }
+     .image .view{
+        top: 13%;
+        right: 15.5%;
+      }
+}
+
+@media(max-width: 375px){
+    .image .view{
+        top: 13%;
+        right: 11.10%;
+      }
 }
