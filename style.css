@@ -17,7 +17,7 @@ main{
     background: hsl(216, 50%, 16%);
     margin: 3rem auto;
     border-radius: 10px;
-    height: 90vh;
+    height: 600px;
     width: 350px;
 }
 .image img{
@@ -109,18 +109,37 @@ hr{
 }
 
 @media (max-width: 425px){
-    .card{
-        height: 90%;
-    }
      .image .view{
-        top: 13%;
+        top: 9%;
         right: 15.5%;
+      }
+      .image .view{
+        height: 290px;
       }
 }
 
 @media(max-width: 375px){
     .image .view{
-        top: 13%;
+        top: 9.3%;
         right: 11.10%;
+      }
+}
+
+@media(max-width: 320px){
+    .card{
+        width: 90%;
+    }
+    .image .view{
+        top: 9.3%;
+        right: 11.10%;
+      }
+      .image img{
+        height: 230px;
+      }
+      .image .view{
+        top: 9%;
+        right: 13%;
+        height: 230px;
+        width: 230px;
       }
 }
